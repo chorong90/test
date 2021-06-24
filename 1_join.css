@@ -1,0 +1,17 @@
+
+body {
+    margin: 10px;
+}
+
+.form-control {
+    height : 30px;
+    width:400px;
+    font-size:15px;
+}
+
+.col-4 {
+    align-items: center;
+    min-width: 200px;
+}
+
+

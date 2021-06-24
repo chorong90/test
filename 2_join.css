@@ -1,0 +1,37 @@
+.a {
+    text-align: center;
+
+}
+
+.inputBox_id {
+    padding: 1%;
+    height: 30px;
+    text-align: center;
+}
+
+.inputBox_pw {
+    padding: 1%;
+    height: 30px;
+    text-align: center;
+}
+
+.inputBox_pwc {
+    padding: 1%;
+    height: 30px;
+    text-align: center;
+}
+
+.inputBox_birth {
+    padding: 1%;
+    height: 30px;
+    text-align: center;
+}
+
+.agree {
+    padding: 1%;
+    text-align: center;
+}
+
+.finish {
+    text-align: center;
+}

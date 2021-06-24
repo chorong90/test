@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>김초롱_회원가입_테스트</title>
+    <link rel="stylesheet" href="/1_join.css">
+</head>
+
+<body>
+<script type="text/javascript" src="1_join.js"></script>
+ <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" >
+<form class="row g-3 needs-validation" action="1_join.js" novalidate onsubmit="return validate()" method="post" enctype="text/plain">
+    <h1 align="center" style="font-size:50px" color="black"><b>SIGN UP</b>
+    </h1>
+    <div class="row flex-column align-items-center"><br>
+        <div class="col-4">
+            <label for="user_id" class="form-label">ID</label>
+            <input type="text" class="form-control" id="user_id">
+            <div class="check_font" id="id_check"> </div>
+        </div>
+
+        <div class="col-4">
+            <label for="user_pw" class="form-label">PASSWORD</label>
+            <input type="password" class="form-control" id="user_pw">
+            <div class="check_font" id="pw_check"> </div>
+        </div>
+
+        <div class="col-4">
+            <label for="user_pw2" class="form-label">RE-confirm PASSWORD</label>
+            <input type="password" class="form-control" id="user_pw2">
+            <div class="check_font" id="pw2_check"> </div>
+        </div>
+
+        <div class="col-4">
+            <label for="user_name" class="form-label">NAME</label>
+            <input type="text" class="form-control" id="user_name">
+            <div class="check_font" id="name_check"></div>
+        </div>
+
+        <div class="col-4">
+            <label for="user_email" class="form-label">E-MAIL</label>
+            <input type="text" class="form-control" id="user_email">
+            <div class="check_font" id="email_check"></div>
+        </div>
+
+        <div class="col-4">
+            <label for="user_phone" class="form-label">PHONE NUMBER</label>
+            <input type="text" class="form-control" id="user_phone">
+            <div class="check_font" id="phone_check"></div>
+        </div>
+
+        <div class="col-4">
+            <label for="user_birth" >BIRTH DATE</label><br>
+            <input type="text" class="form-control" id="user_birth" maxlength="8" >
+
+            <div class="col"><br>
+            <input type="checkbox" name="checkbox" id="checkbox" required> Consent to collect and use personal information
+        </div>
+
+        <div class="col-12" align="center"><br>
+            <button class="btn btn-primary" id='join' type="submit">JOIN</button>
+            <button class="btn btn-primary" type="reset">RESET</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>
